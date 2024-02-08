@@ -1,0 +1,190 @@
+.promo-bg{
+background-image: url('../../decor/monkeys.png'); 
+background-color: var(--cor-creme-2);
+background-position-x: 50%;
+background-position-y: center;
+background-size: 450px;
+position: relative;
+}
+
+
+.promo{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 400px;
+}
+
+.promo-img{
+display: flex;
+justify-content: end;
+}
+
+.promo-img-box{
+max-width: 550px;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+}
+
+
+.promo-img-box-bg{
+background-image: url('../../img/promo-img.png');
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+background-size: contain;
+background-position: bottom;
+}
+
+
+.promo-conteudo-ctn{
+background-color: var(--cor-id-1);
+}
+
+.promo-conteudo{
+max-width: 430px;
+display: flex;
+flex-direction: column;
+align-items: center; 
+justify-content: center; 
+margin-left: 40px;
+margin-right: 40px;
+height: 100%;
+}
+
+.promo-titulo{
+margin-bottom: 20px;
+}
+
+
+.promo-titulo-mobile{
+display: none;
+}
+
+
+
+
+@media(max-width: 920px){
+.promo{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 350px;
+}
+
+.promo-conteudo{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.promo-titulo{
+margin-bottom: 15px;
+}
+}
+
+
+
+@media(max-width: 768px){
+.promo-bg{
+background-size: 300px;
+}
+.promo{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 260px;
+}
+
+.promo-titulo, .promo-text{
+display: none;
+}
+
+.promo-titulo-mobile{
+display: block;
+max-width: 300px;
+}
+
+.promo-img-box{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+}
+}
+
+
+@media(max-width: 550px){
+.promo{
+height: 280px;
+}
+
+.promo-img-box-bg{
+background-size: cover;
+background-position: bottom;
+}
+}
+
+
+@media(max-width: 480px){
+.promo{
+display: grid;
+grid-template-columns: 1fr;
+height: 450px;
+}
+
+.promo-conteudo{
+padding-left: 20px;
+padding-right: 20px;
+max-width: none;
+}
+
+.promo-img{
+height: 250px;
+}
+
+.promo-img-box{
+height: 100%;
+}
+
+.promo-bg{
+height: 450px;
+}
+
+.promo-conteudo-ctn{
+height: 200px;
+}
+
+.promo-titulo{
+margin-bottom: 10px;
+}
+
+.promo-titulo, .promo-text{
+display: block;
+text-align: center;
+}
+
+.promo-img-box-bg{
+background-size: contain;
+background-position: bottom;
+}
+
+.promo-titulo-mobile{
+display: none;
+}
+}
+
+
+@media(max-width: 400px){
+.promo-conteudo-ctn{
+height: 210px;
+}
+
+.promo-conteudo{
+padding-left: 10px;
+padding-right: 10px;
+max-width: none;
+}
+}
+
+
+
+

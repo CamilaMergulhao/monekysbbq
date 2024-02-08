@@ -1,0 +1,295 @@
+.cardapio-bg{
+background-color: var(--cor-brand-1);
+background-image: url("../../decor/square.png");
+background-position: 50%;
+background-size: 70px;
+background-attachment: fixed;
+width: 100%;
+}
+
+
+.cardapio{
+padding-top: 100px;
+padding-bottom: 80px;
+display: flex;
+justify-content: center;
+}
+
+.cardapio-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/* box externo do cardapio */
+.cardapio-box-conteudo{
+background-color: var(--cor-creme-1);
+padding: 40px;
+margin-bottom: 50px;
+max-width: 900px;
+}
+
+/* box do cardapio */
+.cardapio-box-layout{
+border: 4px solid var(--cor-id-1);
+/* padding: 30px; */
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+
+/* titulo do cardapio */
+.title-cardapio{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+/* font "MENU" cardapio */
+.font-title-cardapio{
+font-family: 'Fira Sans', sans-serif;
+/* font-size: 24vw; */
+font-size: 15rem;
+font-weight: 900;
+line-height: 90%;
+text-transform: uppercase;
+} 
+
+/* linha espaçamento */
+.cardapio-espacamento-title{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.cardapio-espacamento{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+width: 100%;
+margin-bottom: 40px;
+margin-top: 30px;
+}
+
+.line-menu{
+width: 100%;
+height: 3.5px;
+background-color: var(--cor-brand-3);
+}
+
+.gravata-icon{
+width: 260px;
+height: auto;
+}
+
+
+/* itens do cardapio */
+
+.cardapio-itens{
+margin-bottom: 15px;
+}
+
+
+.cardapio-itens-texto{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 4px;
+}
+
+
+/* dividor dos itens */
+.pontos{
+border: none;
+border-top: 3px dotted var(--cor-brand-3);
+margin-left: 10px;
+margin-right: 10px;
+align-self: end;
+flex-grow: 1;
+height: 4px;
+}
+
+.cardapio-itens-descricao{
+display: block;
+max-width: 280px;
+} 
+
+
+
+@media(max-width: 920px){
+.cardapio-box-conteudo{
+background-color: var(--cor-creme-1);
+padding: 20px;
+margin-bottom: 50px;
+max-width: 750px;
+}
+
+.cardapio{
+padding-top: 100px;
+padding-bottom: 80px;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+
+.cardapio-box-layout{
+border: 4px solid var(--cor-id-1);
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.font-title-cardapio{
+font-size: 12rem;
+} 
+
+}
+
+
+@media(max-width: 768px){
+.cardapio-box-conteudo{
+padding: 10px;
+margin-bottom: 50px;
+max-width: 600px;
+}
+
+.cardapio{
+padding-top: 100px;
+padding-bottom: 80px;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.cardapio-itens-texto{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cardapio-itens-descricao{
+max-width: 220px;
+} 
+
+.gravata-icon{
+width: 220px;
+}
+
+.line-menu{
+width: 100%;
+height: 3px;
+}
+
+.cardapio-box-layout{
+padding: 25px;
+}
+
+.font-title-cardapio{
+font-size: 10rem;
+} 
+}
+
+
+
+@media(max-width: 550px){
+.cardapio-box-conteudo{
+padding: 10px;
+margin-bottom: 30px;
+}
+
+.cardapio{
+max-width: 450px;
+margin: 0 auto;
+/* background-color: blue; */
+}
+
+.cardapio-box-conteudo{
+/* max-width: 200px; */
+/* background-color: blueviolet; */
+}
+
+.cardapio-box-layout{
+padding: 20px;
+}
+
+.cardapio{
+padding-top: 80px;
+padding-bottom: 60px;
+/* padding-left: 20px;
+padding-right: 20px; */
+}
+
+.gravata-icon{
+width: 180px;
+}
+
+.line-menu{
+width: 100%;
+height: 2px;
+}
+
+.font-title-cardapio{
+font-size: 8rem;
+} 
+}
+
+
+@media(max-width: 480px){
+
+.cardapio{
+max-width: 450px;
+}
+
+/* .cardapio-box-conteudo{
+max-width: 400px;
+} */
+
+.font-title-cardapio{
+font-size: 7rem;
+} 
+
+.cardapio-box-layout{
+padding: 15px;
+}
+
+.pontos{
+border-top: 1px dotted var(--cor-brand-3);
+margin-left: 2px;
+margin-right: 2px;
+align-self: end;
+flex-grow: 1;
+height: 1px;
+}
+
+.cardapio-itens-descricao{
+max-width: 180px;
+} 
+
+.cardapio-itens-texto{
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+}
+
+.cardapio-espacamento{
+margin-bottom: 30px;
+margin-top: 40px;
+}
+}
+
+@media(max-width: 380px){
+.font-title-cardapio{
+font-size: 6rem;
+}
+
+/* .cardapio-box-conteudo{
+max-width: 365px;
+} */
+}

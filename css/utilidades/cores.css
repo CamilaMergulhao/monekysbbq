@@ -1,0 +1,53 @@
+:root{
+/*brand*/
+--cor-brand-1: #A6192E;
+--cor-brand-2: #FEF1E1;
+--cor-brand-3: #251A06;
+--cor-brand-4: #FDFCFA;
+
+/*id*/
+--cor-id-1: #B72E2D;
+
+/*creme*/
+--cor-creme-1: #FAF1E6;
+--cor-creme-2: #FEFBF5;
+
+/*cor btn*/
+--cor-btn: #DE425B;
+}
+
+
+
+.cor-brand-1{
+color: var(--cor-brand-1);
+}
+
+.cor-brand-2{
+color: var(--cor-brand-2);
+}
+
+.cor-brand-3{
+color: var(--cor-brand-3);
+}
+
+.cor-brand-4{
+color: var(--cor-brand-4);
+}
+
+.cor-id-1{
+color: var(--cor-id-1);   
+}
+
+.cor-creme-1{
+color: var(--cor-creme-1);    
+}
+
+.cor-creme-2{
+color: var(--cor-creme-2);    
+}
+
+.cor-btn{
+color: var(--cor-btn);    
+}
+
+

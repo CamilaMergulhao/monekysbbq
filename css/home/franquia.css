@@ -1,0 +1,155 @@
+.franquia-bg{
+background-image: url("../../decor/diamante.png");
+background-position: 50%;
+background-color: var(--cor-creme-2);
+background-size: 146px;
+background-position: center center;
+width: 100%;
+}
+
+.franquia-ctn{
+display: flex;
+flex-direction: column;
+align-content: center;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.franquia-title{
+transform: rotate(-7deg);
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 90px;
+}
+
+.franquia{
+background-color: var(--cor-id-1);
+padding: 40px;
+max-width: 800px;
+align-self: center;
+}
+
+.franquia-border{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 4px solid var(--cor-creme-1);
+padding: 40px;
+}
+
+.franquia-texto{
+max-width: 600px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.franquia-texto h3{
+margin-bottom: 20px;
+}
+
+.franquia-texto p{
+text-align: center;
+}
+
+
+@media(max-width: 920px){
+.franquia{
+padding: 25px;
+max-width: 650px;
+}
+
+.franquia-border{
+padding: 35px;
+}
+
+.franquia-texto{
+max-width: 600px;
+margin-bottom: 30px;
+}
+}
+
+
+@media(max-width: 768px){
+
+.franquia-title{
+margin-bottom: 80px;
+}
+
+.franquia{
+padding: 15px;
+max-width: 550px;
+}
+
+.franquia-border{
+border: 3px solid var(--cor-creme-1);
+padding: 35px;
+}
+
+.franquia-texto{
+max-width: 550px;
+margin-bottom: 30px;
+}
+}
+
+
+@media(max-width: 650px){
+.franquia{
+padding: 15px;
+max-width: 450px;
+}
+
+.franquia-texto{
+max-width: none;
+margin-bottom: 30px;
+}
+
+.franquia-border{
+border: 3px solid var(--cor-creme-1);
+padding: 30px;
+}
+}
+
+
+@media(max-width: 550px){
+
+.franquia-ctn{
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.franquia{
+padding: 15px;
+max-width: 400px;
+}
+
+.franquia-border{
+border: 3px solid var(--cor-creme-1);
+padding: 30px;
+}
+
+}
+
+@media(max-width: 480px){
+
+.franquia-bg{
+background-size: 100px;
+}
+
+
+.franquia-border{
+border: 2.5px solid var(--cor-creme-1);
+padding: 25px;
+}
+
+.franquia-title{
+margin-bottom: 70px;
+}
+}
+
+@media(max-width: 380px){
+.franquia{
+max-width: 300px;
+}
+}
+

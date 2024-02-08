@@ -1,0 +1,140 @@
+[data-menu="btn-mobile"] {
+display: none;
+background-color: transparent;
+max-width: max-content;
+cursor: pointer;
+height: 50px;
+width: 50px;
+align-items: center;
+justify-content: center;
+}
+
+#hamburguer {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 45px;
+width: 45px;
+gap: 5px;
+background-color: transparent;
+}
+
+.hamburguer-span {
+height: 3.5px;
+width: 35px;
+background-color: var(--cor-brand-1);
+display: block;
+transition: .3s;
+position: relative;
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(1) {
+    background-color: transparent;
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+[data-menu="btn-mobile"].ativarMenu .hamburguer-span:nth-child(3) {
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 920px) {
+
+[data-menu="btn-mobile"] {
+display: flex;
+z-index: 2;
+position: relative;
+}
+
+.header-menu {
+display: none;
+}
+
+#header-menu-mobile{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+background-color: var(--cor-brand-2);
+width: 100vw;
+height: 80vh;
+top: 0px;
+right: 0;
+z-index: 1;
+position: absolute;
+transform: translatey(-100%);
+transition: .4s ease-in-out, transform .4s ease-in-out
+}
+
+
+#header-menu-mobile.ativarMenu {
+visibility: visible;
+animation: menuIntro .4s ease-in-out;
+transform: translatey(0);
+}
+}
+
+
+#header-menu-mobile.ativarMenu li a{
+padding: 0.625rem;
+margin: 0.3125rem 0.9375rem;
+border-bottom: 1px solid var(--cor-id-5);
+}
+    
+
+
+@keyframes menuIntro {
+    from {
+        transform: translatey(-100%);
+    }
+    to {
+        transform: translatey(0);
+    }
+
+} 
+
+@keyframes menuOut {
+    from {
+        transform: translatey(0);
+    }
+    to {
+        transform: translatey(-100%);
+    }
+
+} 
+
+
+
+
+
+@media(max-width: 768px){
+.hamburguer-span {
+height: 3px;
+width: 30px;
+}
+}
+
+
+@media(max-width: 480px){
+.hamburguer-span {
+height: 2.5px;
+width: 23px;
+}
+
+#header-menu-mobile{
+gap: 20px;
+height: 70vh;
+}
+
+} 
+
+

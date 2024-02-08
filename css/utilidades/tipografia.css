@@ -1,0 +1,321 @@
+/* TITULOS */
+/*///////// extra-grande /////////*/
+
+.font-title-gg-extra-caps{
+font-family: 'Fira Sans', sans-serif;
+font-size: 4rem;
+font-weight: 800;
+text-transform: uppercase;
+} 
+
+.font-title-gg-extra-caps-bold{
+font-family: 'Fira Sans', sans-serif;
+font-size: 4rem;
+font-weight: 900;
+text-transform: uppercase;
+} 
+
+.font-title-gg-caps{
+font-family: 'Fira Sans', sans-serif;
+font-size: 3rem;
+text-transform: uppercase;
+font-weight: 900;
+} 
+
+/*///////// grande /////////*/
+
+.font-title-g1-caps{
+font-family: 'Fira Sans', sans-serif;
+font-size: 2.5rem;
+font-weight: 800;
+text-transform: uppercase;
+} 
+
+.font-title-g1-caps-bold{
+font-family: 'Fira Sans', sans-serif;
+font-size: 2.5rem;
+font-weight: 900;
+text-transform: uppercase;
+} 
+
+.font-title-g2-caps{
+font-family: 'Fira Sans', sans-serif;
+font-size: 2.5rem;
+font-weight: 900;
+text-transform: uppercase;
+} 
+
+
+.font-title-g2-caps-mod2{
+font-family: 'Fira Sans', sans-serif;
+font-size: 2.5rem;
+text-transform: uppercase;
+font-weight: 600;
+} 
+
+/*///////// media /////////*/
+
+.font-title-m1-caps{
+font-family: 'Fira Sans', sans-serif;
+font-size: 2rem;
+font-weight: 900;
+line-height: 1;
+text-transform: uppercase; 
+}   
+
+/* TEXTOS */
+
+/*///////// grande /////////*/
+
+.font-text-g1{
+font-family: 'Lato', sans-serif;
+font-size: 1.125rem;
+line-height: 1.6;
+} 
+
+.font-text-g2{
+font-family: 'Lato', sans-serif;
+font-size: 1.25rem;
+line-height: 1.3;
+} 
+
+/*///////// média /////////*/
+
+.font-text-m{
+font-family: 'Lato', sans-serif;
+font-size: 1rem;
+} 
+
+.font-text-m-bold{
+font-family: 'Lato', sans-serif;
+font-size: 1rem;
+font-weight: 700;
+} 
+
+/* MENU */
+
+/*///////// média /////////*/
+.font-menu-m{
+font-family: 'Lato', sans-serif;
+font-size: 1.125rem;
+font-weight: 700; 
+} 
+
+
+
+/* DISPLAY */
+
+/*///////// pequena /////////*/
+.font-display-p1{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 2.5rem;
+line-height: 0.1;
+} 
+
+.font-display-p3{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 3.5rem;
+line-height: 0.1;
+} 
+
+.font-display-p2{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 4.5rem;
+line-height: 0.1;
+font-weight: normal;
+} 
+
+.font-display-p4{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 9rem;
+line-height: 0;
+font-weight: normal;
+} 
+
+
+
+/*///////// media queries /////////*/
+
+@media(max-width:920px){
+.font-title-gg-extra-caps, .font-title-gg-extra-caps-bold{
+font-size: 3.5rem;
+}
+
+.font-title-gg-caps{
+font-size: 2.5rem;
+} 
+}
+
+@media(max-width: 850px){
+.font-title-gg-extra-caps{
+font-size: 3rem;
+}
+
+.font-title-g1-caps-bold{
+font-size: 2rem;
+}
+}
+
+
+@media(max-width: 768px){
+.font-title-gg-extra-caps{
+font-size: 2.5rem;
+}
+
+.font-title-gg-extra-caps-bold{
+font-size: 3rem;
+}
+
+.font-title-gg-caps{
+font-size: 2rem;
+} 
+
+.font-title-g2-caps,.font-title-g2-caps-mod2{
+font-size: 2rem;
+}
+
+.font-title-g1-caps{
+font-size: 2rem;
+}
+
+.font-title-g1-caps-bold{
+font-size: 1.7rem;
+}
+
+.font-display-p2{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 4rem;
+}
+
+.font-text-g2{
+font-family: 'Lato', sans-serif;
+font-size: 1.125rem;
+line-height: 1.3;
+}
+
+.font-display-p4{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 8rem;
+}
+
+.font-text-m-bold{
+font-size: 0.75rem;
+font-weight: 600;
+}
+}
+
+
+@media(max-width: 650px){
+.font-title-g1-caps{
+font-size: 1.875rem;
+}
+}
+
+
+@media(max-width: 500px){
+.font-title-g1-caps-bold{
+font-size: 1.5rem;
+}
+}
+
+@media(max-width: 550px){
+.font-title-g2-caps,.font-title-g2-caps-mod2{
+font-size: 1.75rem;
+}
+
+.font-title-g2-caps-mod2{
+font-size: 1.25rem;
+font-style: italic;
+}
+
+.font-display-p2{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 3.5rem;
+}
+}
+
+
+@media(max-width: 480px){
+.font-title-gg-extra-caps{
+font-size: 1.75rem;
+}
+
+/* .font-menu-m{
+font-family: 'Lato', sans-serif;
+font-size: 1rem;
+font-weight: 700; 
+} */
+
+.font-display-p4{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 7.5rem;
+}
+
+
+.font-title-g1-caps{
+font-size: 1.75rem;
+}
+
+.font-text-g2{
+font-size: 1rem;
+}
+
+.font-title-gg-extra-caps-bold{
+font-size: 2.5rem;
+}
+
+.font-title-m1-caps{
+font-size: 1.75rem;
+}   
+
+.font-display-p3{
+font-family: 'Babeface Personal Use', sans-serif;
+font-size: 3rem;
+}
+
+.font-title-g2-caps-mod2{
+font-size: 1rem;
+}
+
+.font-text-m{
+font-size: 0.875rem;
+}
+
+.font-title-g2-caps{
+font-size: 1.5rem;
+}
+
+.font-title-gg-caps{
+font-size: 1.75rem;
+} 
+
+.font-text-g1{
+font-family: 'Lato', sans-serif;
+font-size: 1rem;
+line-height: 1.4;
+}
+
+.font-title-g1-caps-bold{
+font-size: 1.25rem;
+}
+}
+
+@media(max-width: 380px){
+.font-title-g1-caps-bold{
+font-size: 1.125rem;
+}
+
+.font-title-gg-extra-caps-bold{
+font-size: 2rem;
+}
+
+.font-display-p3{
+font-size: 2.5rem;
+}
+}
+
+
+
+
+
+

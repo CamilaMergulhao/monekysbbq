@@ -1,0 +1,131 @@
+.letreiro-bg{
+background-color: var(--cor-id-1);
+padding-top: 8px;
+padding-bottom: 8px;
+border-top: 5px solid var(--cor-creme-2);
+border-bottom: 5px solid var(--cor-creme-2);
+}
+
+
+.letreiro {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 8px;
+}
+
+
+.horarios-mobile{
+display: none;
+}
+
+
+.xadrez-vetor{
+flex-grow:1;
+background-image: url('../../decor/xadrez-01.svg');
+min-height: 50px; 
+background-size: contain; 
+}
+
+
+.dias, .hora{
+background-color: var(--cor-creme-2);
+padding-left: 15px;
+padding-right: 15px;
+height: 50px;
+width: auto;
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+/* media-queries */
+
+
+@media(max-width:850px){
+.letreiro-bg{
+padding-top: 7px;
+padding-bottom: 7px;
+border-top: 4px solid var(--cor-creme-2);
+border-bottom: 4px solid var(--cor-creme-2);
+}
+
+.dias, .hora{
+padding-left: 15px;
+padding-right: 15px;
+height: 45px;
+}
+
+.xadrez-vetor{
+min-height: 44px;
+}
+}
+
+
+@media(max-width: 768px){
+.letreiro-bg{
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+.dias, .hora{
+padding-left: 10px;
+padding-right: 10px;
+height: 40px;
+}
+
+.xadrez-vetor{
+min-height: none; 
+height: 20px;
+background-size: 160px;
+background-position: center;
+}
+}
+
+
+
+@media(max-width: 560px){
+.dias, .hora, .xadrez-vetor{
+display: none;
+}
+
+.horarios-mobile{
+display: flex;
+width: 100%;
+gap: 10px;
+justify-content: center;
+background-color: var(--cor-creme-2);
+align-items: center;
+}
+
+.horarios-mobile span{
+padding-left: 0px;
+padding-right: 0px;
+display: block;
+}
+
+.circle svg{
+width: 12px;
+height: 12px;
+}
+}
+
+@media(max-width: 500px){
+.circle svg{
+width: 10px;
+height: 10px;
+}
+
+.letreiro-bg{
+padding-top: 5px;
+padding-bottom: 5px;
+border-top: 3px solid var(--cor-creme-2);
+border-bottom: 3px solid var(--cor-creme-2);
+}
+}
+
+
+

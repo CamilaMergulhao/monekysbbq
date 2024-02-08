@@ -1,0 +1,104 @@
+.intro-bg{
+background-color: var(--cor-brand-1);
+background-image: url("../../decor/square.png");
+background-position: 50%;
+background-size: 70px;
+background-attachment: fixed;
+width: 100%;
+}
+
+
+.intro{
+display: flex;
+justify-content: space-between;
+align-content: center;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+.intro h1{
+align-self: start;
+justify-self: start;
+max-width: 600px;
+padding-top: 30px;
+}
+
+.intro-img{
+max-width: 400px;
+width: 100%;
+}
+
+.intro-img img{
+object-fit: contain;
+width: 100%;
+height: auto;
+}
+
+
+/* media-queries */
+@media(max-width: 920px){
+.intro h1{
+padding-top: 30px;
+}
+}
+
+@media(max-width: 850px){
+
+.intro{
+padding-top: 50px;
+padding-bottom: 30px;
+}
+
+.intro h1{
+max-width: none;
+}
+
+.intro-img{
+max-width: 300px;
+width: 100%;
+}
+}
+
+@media(max-width: 768px){
+.intro{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 40px;
+padding-bottom: 40px;
+flex-direction: column-reverse;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.intro h1{
+padding-top: 0px;
+max-width: 600px;
+align-self: center;
+text-align: center;
+}
+
+.intro-img{
+max-width: 250px;
+width: 100%;
+margin-bottom: 10px;
+}
+}
+
+@media(max-width: 650px){
+.intro h1{
+padding-top: 0px;
+max-width: none;
+align-self: center;
+text-align: center;
+}
+}
+
+
+@media(max-width: 480px){
+.intro-img{
+max-width: 180px;
+margin-bottom: 10px;
+}
+}

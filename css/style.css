@@ -1,0 +1,42 @@
+/*Global*/
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/menu-mobile.css";
+
+/*Utilidades*/
+@import "utilidades/componentes.css";
+@import "utilidades/tipografia.css";
+@import "utilidades/cores.css";
+@import "utilidades/titles.css";
+@import "utilidades/decorativos.css";
+
+/*home*/
+@import "home/intro.css";
+@import "home/letreiro.css";
+@import "home/promo.css";
+@import "home/quem-somos.css";
+@import "home/cardapio.css";
+@import "home/classicos.css";
+@import "home/franquia.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
